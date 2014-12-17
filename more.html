@@ -76,7 +76,7 @@ var gourd = CSG.fromPolygons(gourdModel.triangles.map(function(tri) {
     return new CSG.Vertex(gourdModel.vertices[i], gourdModel.normals[i]);
   }));
 }));
-var cyl = CSG.cylinder({ radius: 0.4, start: [0.6, 0.8, -0.6], end: [-0.6, -0.8, 0.6] });
+var cyl = CSG.cylinder({ radius: 0.55, start: [0.6, 0.8, -0.6], end: [-0.6, -0.8, 0.6] });
 gourd.setColor(0.5, 1, 0);
 cyl.setColor(0, 0.5, 1);
 
